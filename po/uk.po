@@ -1,38 +1,29 @@
-# Ukrainian translation for Battery-Health-Charging@maniacx.github.com.
-# Copyright (C) 2023 Battery-Health-Charging@maniacx.github.com's COPYRIGHT HOLDER
-# This file is distributed under the same license as the Battery-Health-Charging@maniacx.github.com package.
-#
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: battery-health-charging\n"
+"Project-Id-Version: battery-health-charging-45\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-31 19:17-0700\n"
-"PO-Revision-Date: 2023-12-11 21:16-0800\n"
+"PO-Revision-Date: 2024-04-09 19:28\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 "
-"&& n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 "
-"&& n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
-"X-Crowdin-Project: battery-health-charging\n"
-"X-Crowdin-Project-ID: 579277\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: battery-health-charging-45\n"
+"X-Crowdin-Project-ID: 613375\n"
 "X-Crowdin-Language: uk\n"
-"X-Crowdin-File: Battery-Health-Charging.pot\n"
-"X-Crowdin-File-ID: 41\n"
-"X-Generator: Poedit 3.4.1\n"
+"X-Crowdin-File: /po/Battery-Health-Charging.pot\n"
+"X-Crowdin-File-ID: 73\n"
 
 #: lib/notifier.js:19
 msgid "Battery Health Charging"
-msgstr "Battery Health Charging"
+msgstr ""
 
 #: lib/notifier.js:29
 msgid "Mode updated"
-msgstr ""
+msgstr "Режим оновлено"
 
 #: lib/notifier.js:34
 msgid "Battery Health Charging Error"
@@ -47,11 +38,9 @@ msgid "Show details"
 msgstr "Показати подробиці"
 
 #: lib/notifier.js:76
-msgid ""
-"Unsupported device.\n"
+msgid "Unsupported device.\n"
 "This extension is not compatible with your device."
-msgstr ""
-"Пристрій не підтримується.\n"
+msgstr "Пристрій не підтримується.\n"
 "Це розширення несумісне з вашим пристроєм."
 
 #: lib/notifier.js:78
@@ -60,13 +49,11 @@ msgstr "Не знайдено потрібної програми"
 
 #: lib/notifier.js:82
 msgid "Please install polkit from extension settings under Installation."
-msgstr ""
-"Будь ласка, встановіть polkit з налаштувань розширень під час встановлення."
+msgstr "Будь ласка, встановіть polkit з налаштувань розширень під час встановлення."
 
 #: lib/notifier.js:86
 msgid "Please update polkit from extension settings under Installation."
-msgstr ""
-"Будь ласка, оновіть polkit з налаштувань розширень під час встановлення."
+msgstr "Будь ласка, оновіть polkit з налаштувань розширень під час встановлення."
 
 #: lib/notifier.js:90
 #, javascript-format
@@ -84,11 +71,9 @@ msgstr ""
 
 #: lib/notifier.js:102
 #, javascript-format
-msgid ""
-"Battery 1\n"
+msgid "Battery 1\n"
 "Charge thresholds are set to %d / %d %%"
-msgstr ""
-"Акумулятор 1\n"
+msgstr "Акумулятор 1\n"
 "поріг заряду змінено на %d / %d %%"
 
 #. TRANSLATORS: Keep translation short if possible. Maximum  34 characters can be displayed here
@@ -99,11 +84,9 @@ msgstr "Поріг заряду батареї: %d / %d %%"
 
 #: lib/notifier.js:112
 #, javascript-format
-msgid ""
-"Battery 1\n"
+msgid "Battery 1\n"
 "Charging Limit is set to %d%%"
-msgstr ""
-"Акумулятор 1\n"
+msgstr "Акумулятор 1\n"
 "Ліміт зарядки встановлено на %d%%"
 
 #. TRANSLATORS: Keep translation short if possible. Maximum  34 characters can be displayed here
@@ -114,20 +97,16 @@ msgstr "Ліміт зарядження: %d%%"
 
 #: lib/notifier.js:120
 #, javascript-format
-msgid ""
-"Battery 2\n"
+msgid "Battery 2\n"
 "Charge thresholds are set to %d / %d %%"
-msgstr ""
-"Акумулятор 2\n"
+msgstr "Акумулятор 2\n"
 "поріг заряду змінено на %d / %d %%"
 
 #: lib/notifier.js:125
 #, javascript-format
-msgid ""
-"Battery 2\n"
+msgid "Battery 2\n"
 "Charging Limit is set to %d%%"
-msgstr ""
-"Акумулятор 2\n"
+msgstr "Акумулятор 2\n"
 "Ліміт зарядки встановлено на %d%%"
 
 #: lib/notifier.js:130
@@ -267,7 +246,7 @@ msgstr "Адаптивний"
 #. TRANSLATORS: Keep translation short if possible. Maximum  13 characters can be displayed here
 #: lib/thresholdPanel.js:443
 msgid "Express"
-msgstr "Express"
+msgstr ""
 
 #: lib/thresholdPanel.js:480
 msgid "Force Discharge"
@@ -288,23 +267,14 @@ msgstr ""
 
 #: preferences/about.js:48
 #, javascript-format
-msgid ""
-"This application comes with absolutely no warranty. See the <a "
-"href=\"%s\">%s</a> for details."
-msgstr ""
-"Ця програма постачається БЕЗ БУДЬ-ЯКИХ ГАРАНТІЙ. Щоб дізнатися більше, "
-"відвідайте <a href=\"%s\">%s</a>."
+msgid "This application comes with absolutely no warranty. See the <a href=\"%s\">%s</a> for details."
+msgstr "Ця програма постачається БЕЗ БУДЬ-ЯКИХ ГАРАНТІЙ. Щоб дізнатися більше, відвідайте <a href=\"%s\">%s</a>."
 
 #: preferences/general.js:53
-msgid ""
-"Select the type of icon for indicator and menu.\n"
-"In threshold settings, if <b>Customise</b> mode is selected, icon type will "
-"switch to <b>Symbols Only</b> and this option will be disabled."
-msgstr ""
-"Виберіть тип піктограми для індикатора та меню.\n"
-"У налаштуваннях порогового значення, якщо вибрано режим <b>Налаштувати</b>, "
-"тип піктограми зміниться на <b>Тільки символи</b>, і цей параметр буде "
-"вимкнено."
+msgid "Select the type of icon for indicator and menu.\n"
+"In threshold settings, if <b>Customise</b> mode is selected, icon type will switch to <b>Symbols Only</b> and this option will be disabled."
+msgstr "Виберіть тип піктограми для індикатора та меню.\n"
+"У налаштуваннях порогового значення, якщо вибрано режим <b>Налаштувати</b>, тип піктограми зміниться на <b>Тільки символи</b>, і цей параметр буде вимкнено."
 
 #: preferences/general.js:55
 msgid "Select the type of icon for indicator and menu."
@@ -405,9 +375,7 @@ msgstr "Пакет Dell для режиму зарядки"
 
 #: ui/dell.ui:13
 msgid "Select Dell package used for changing charging mode/threshold."
-msgstr ""
-"Виберіть пакет Dell, який використовується для зміни режиму/порогу "
-"заряджання."
+msgstr "Виберіть пакет Dell, який використовується для зміни режиму/порогу заряджання."
 
 #: ui/dell.ui:27
 msgid "Bios Authentication"
@@ -418,9 +386,7 @@ msgid "Requires Bios password validation to change mode/threshold"
 msgstr ""
 
 #: ui/dell.ui:31
-msgid ""
-"Enable if Dell command configure uses Bios (system) password to change mode/"
-"threshold"
+msgid "Enable if Dell command configure uses Bios (system) password to change mode/threshold"
 msgstr ""
 
 #: ui/dell.ui:43
@@ -433,7 +399,7 @@ msgstr ""
 
 #: ui/dell.ui:79
 msgid "Libsmbios"
-msgstr "Libsmbios"
+msgstr ""
 
 #: ui/dell.ui:80
 msgid "Dell Command Center"
@@ -461,20 +427,15 @@ msgstr "Відображати елемент меню Налаштувань"
 
 #: ui/general.ui:37
 msgid "Adds a button to open extension preferences from quick settings panel."
-msgstr ""
-"Додає кнопку для відкриття налаштувань розширень з панелі швидких "
-"налаштувань."
+msgstr "Додає кнопку для відкриття налаштувань розширень з панелі швидких налаштувань."
 
 #: ui/general.ui:48
 msgid "Display subtitle with current mode on quick menu button"
 msgstr "Показувати субтитри з поточним режимом на кнопці швидкого меню"
 
 #: ui/general.ui:49
-msgid ""
-"Displays the current mode in the text form (subtitle) on the quick menu "
-"button."
-msgstr ""
-"Відображає поточний режим у тексті на кнопці швидкого перемикання меню."
+msgid "Displays the current mode in the text form (subtitle) on the quick menu button."
+msgstr "Відображає поточний режим у тексті на кнопці швидкого перемикання меню."
 
 #: ui/general.ui:60
 msgid "Show system indicator"
@@ -497,14 +458,8 @@ msgid "Change battery indicator icon behavior"
 msgstr "Змінити поведінку індикатора батареї"
 
 #: ui/general.ui:90
-msgid ""
-"Switches battery indicator icon to <b>charging</b> in the system tray and "
-"quick settings panel when device is plugged into power source, even when "
-"charging is disabled due to charge threshold."
-msgstr ""
-"Перемикає піктограму індикатора акумулятора на <b>заряджання</b> в "
-"системному треї та на панелі швидких налаштувань, коли пристрій підключено "
-"до джерела живлення, навіть якщо заряджання вимкнено через поріг заряду."
+msgid "Switches battery indicator icon to <b>charging</b> in the system tray and quick settings panel when device is plugged into power source, even when charging is disabled due to charge threshold."
+msgstr "Перемикає піктограму індикатора акумулятора на <b>заряджання</b> в системному треї та на панелі швидких налаштувань, коли пристрій підключено до джерела живлення, навіть якщо заряджання вимкнено через поріг заряду."
 
 #: ui/general.ui:103
 msgid "Installation"
@@ -519,26 +474,13 @@ msgid "Install / Update / Remove"
 msgstr "Встановити / Оновити / Видаляти"
 
 #: ui/general.ui:110
-msgid ""
-"This device requires root privileges to change the charging limit. Setup a "
-"privileged script and give user access via polkit.\n"
-"\n"
-"<b>Root privileges are required</b> to install, update or remove the polkit "
-"policy script.\n"
-"\n"
-"<b>Install / Update </b> this polkit policy script and continue using this "
-"extension.\n"
+msgid "This device requires root privileges to change the charging limit. Setup a privileged script and give user access via polkit.\n\n"
+"<b>Root privileges are required</b> to install, update or remove the polkit policy script.\n\n"
+"<b>Install / Update </b> this polkit policy script and continue using this extension.\n"
 "<b>Remove</b> this polkit policy script before uninstalling this extension."
-msgstr ""
-"Цей пристрій потребує прав суперкористувача для зміни ліміту заряджання. "
-"Встановіть привілейований сценарій та надайте користувацький доступ за "
-"допомогою polkit.\n"
-"\n"
-"<b>Для встановлення необхідно права суперкористувача</b>, оновити або "
-"видалити сценарій політики polkit.\n"
-"\n"
-"<b>Встановити / Оновити </b> цей скрипт політики polkit і продовжити "
-"використання цього розширення.\n"
+msgstr "Цей пристрій потребує прав суперкористувача для зміни ліміту заряджання. Встановіть привілейований сценарій та надайте користувацький доступ за допомогою polkit.\n\n"
+"<b>Для встановлення необхідно права суперкористувача</b>, оновити або видалити сценарій політики polkit.\n\n"
+"<b>Встановити / Оновити </b> цей скрипт політики polkit і продовжити використання цього розширення.\n"
 "<b>Видаляти</b> цей скрипт політики polkit перед видаленням цього розширення."
 
 #: ui/general.ui:134
@@ -558,9 +500,7 @@ msgid "Enable force discharge battery feature (Experimental)"
 msgstr ""
 
 #: ui/thinkpad.ui:13
-msgid ""
-"Enable option to force discharge battery when battery level higher than "
-"current threshold"
+msgid "Enable option to force discharge battery when battery level higher than current threshold"
 msgstr ""
 
 #: ui/thresholdPrimary.ui:21 ui/thresholdSecondary.ui:21
@@ -596,26 +536,3 @@ msgstr "Поточне значення"
 msgid "Start charging threshold value"
 msgstr "Початкове значення порогового значення зарядки"
 
-#, javascript-format
-#~ msgid ""
-#~ "Encountered an unexpected error. (%s)\n"
-#~ "Choose correct dell package in extension settings.\n"
-#~ "Disable and enable the extension"
-#~ msgstr ""
-#~ "Виникла неочікувана помилка. (%s)\n"
-#~ "Виберіть правильний пакет dell в параметрах розширення.\n"
-#~ "Вимкніть та увімкніть розширення"
-
-#, javascript-format
-#~ msgid ""
-#~ "Charging threshold not updated. (%s)\n"
-#~ "Choose correct dell package in extension settings\n"
-#~ "Disable and enable the extension"
-#~ msgstr ""
-#~ "Поріг зарядки не оновлено. (%s)\n"
-#~ "Виберіть правильний пакет dell в параметрах розширення\n"
-#~ "Вимкніть та увімкніть розширення"
-
-#, javascript-format
-#~ msgid "%d %%"
-#~ msgstr "%d %%"
